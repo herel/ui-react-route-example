@@ -1,0 +1,16 @@
+nav{
+	background-color: rgb(237,239,242) !important;
+	margin-bottom: 15px;
+}
+.wrapper{
+	min-height: calc(100vh - 64px - 30px - 15px - 56px)
+}
+.footer{
+	background-color: #4c4e50;
+	border-top: 10px solid rgb(237,239,242);
+	text-align: center;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 30px;
+}
