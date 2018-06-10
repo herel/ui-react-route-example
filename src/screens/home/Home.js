@@ -8,7 +8,7 @@ class Home extends Component{
 				<div className="col-12">
 					<h1>Route Home</h1>
 					<p>Bienvido a mi blog, aprende cómo configurar ui route react en este link</p>
-					<a href="https://herelodin.com/como-configurar-…uter-react-0-5-x/" target="_new">https://herelodin.com/como-configurar-…uter-react-0-5-x/</a>
+					<a href="https://herelodin.com/como-configurar-ui-router-react/" target="_new">https://herelodin.com/como-configurar-ui-router-react/</a>
 				</div>
 			</div>
 		);
