@@ -5,7 +5,7 @@ class Header extends Component{
 	render(){
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light">
-				<a className="navbar-brand">Herel Odin</a>
+				<a className="navbar-brand" href="https://herelodin.com" target="_new">Herel Odin</a>
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -23,14 +23,14 @@ class Header extends Component{
 						<UISrefActive class="active">
 							<li className="nav-item">
 								<UISref to="layout.home">
-									<a className="nav-link" href="#">Home</a>
+									<a className="nav-link">Home</a>
 								</UISref>
 							</li>
 						</UISrefActive>
 						<UISrefActive class="active">
 							<li className="nav-item">
 								<UISref to="layout.about">
-									<a className="nav-link" href="#">About</a>
+									<a className="nav-link">About</a>
 								</UISref>
 							</li>
 						</UISrefActive>

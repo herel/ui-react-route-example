@@ -2,16 +2,21 @@
 # yarn lockfile v1
 
 
+"@uirouter/core@5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.19.tgz#fe2888190393a8c92584c354e65ab8322c1b0db4"
+
 "@uirouter/core@=5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.3.tgz#e2b5b1e45190e20c67ba4e15c013de5d4e0ccab3"
 
-"@uirouter/react@0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@uirouter/react/-/react-0.5.0.tgz#3b3e7f9da10cf2a601e0678106e2fc3774579f2f"
+"@uirouter/react@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@uirouter/react/-/react-0.8.2.tgz#e942d4360e274e224ec73624dfa5694abca72b66"
   dependencies:
-    "@uirouter/core" "=5.0.3"
+    "@uirouter/core" "5.0.19"
     classnames "^2.2.5"
+    prop-types "^15.6.1"
 
 abab@^1.0.3:
   version "1.0.4"
@@ -5393,7 +5398,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.1:
   version "15.6.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
   dependencies:
